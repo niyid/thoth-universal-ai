@@ -1,0 +1,13 @@
+
++-------------------------+
+|  THOTH PLUGIN MANAGER   |
++-------------------------+
+| [x] OpenAI API Key       |
+| [ ] Use Local LLM (Ollama)|
+|                         |
+| App Permissions         |
+| ----------------------- |
+| Email: Compose ✅         |
+| Calendar: Summarize ✅    |
+| Files: Attachments ❌     |
++-------------------------+

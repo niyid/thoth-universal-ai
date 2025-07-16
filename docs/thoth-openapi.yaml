@@ -1,0 +1,36 @@
+
+openapi: 3.0.0
+info:
+  title: Thoth API
+  version: 1.0.0
+
+paths:
+  /context-action:
+    post:
+      summary: Process app context into actions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                context:
+                  type: string
+                intent:
+                  type: string
+      responses:
+        '200':
+          description: Actions returned
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  actions:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type: { type: string }
+                        target: { type: string }
+                        value: { type: string }
