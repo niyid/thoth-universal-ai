@@ -13,7 +13,7 @@ Plug any app into any LLM for contextual task execution.
 - UI Mockup
 - Monero:  88Ae5wwozjnjmhXRN987HXUgNZ8J8MEKBZf8gsxsMHj39HPHjCoirxZFy1UWuNSE36i3AB8ppqMAnNHiskbaut41AqGskaw
 
-<img src="./monero_wallet.png" alt="Monero Wallet" width="300" height="300">
+<img src="https://github.com/niyid/niyid/blob/main/monero_wallet.png" alt="Monero Wallet" width="300" height="300">
 
 ## Actions
 
