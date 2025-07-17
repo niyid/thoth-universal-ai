@@ -21,4 +21,40 @@ Returns structured actions like:
 
 { "type": "complete_text", "target": "body", "value": "Hello there!" }
 
+## Example: Chrono-Scripting Usage
+
+```kotlin
+val chronoManager = ChronoManager()
+
+val emailAction = EmailAction(context)
+chronoManager.addScript(
+    ChronoScript(
+        id = "email_reminder",
+        description = "Send reminder email",
+        action = { 
+            emailAction.sendEmail(
+                "someone@example.com", 
+                "Reminder", 
+                "This is your reminder."
+            ) 
+        }
+    ),
+    delayMillis = 60000L // Run after 1 minute
+)
+
+val smsAction = SmsAction(context)
+chronoManager.addScript(
+    ChronoScript(
+        id = "sms_alert",
+        description = "Send alert SMS",
+        action = { 
+            smsAction.sendSms(
+                "+1234567890", 
+                "This is your SMS alert."
+            ) 
+        }
+    ),
+    delayMillis = 120000L // Run after 2 minutes
+)
+```
 
