@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techducat.thoth">
+
+    <application
+        android:allowBackup="true"
+        android:label="Thoth Android AI"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    </application>
+
+</manifest>
+
