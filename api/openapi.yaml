@@ -1,0 +1,45 @@
+openapi: 3.0.0
+info:
+  title: Thoth Universal AI API
+  version: 1.0.0
+paths:
+  /query:
+    post:
+      summary: Query LLM
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                prompt:
+                  type: string
+      responses:
+        '200':
+          description: LLM Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+
+  /plugins:
+    get:
+      summary: List available plugins
+      responses:
+        '200':
+          description: Plugin List
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    description:
+                      type: string
