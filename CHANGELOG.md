@@ -1,0 +1,13 @@
+- 2025-07-23: Some additional logos
+- 2025-07-23: Documentation should be here
+- 2025-07-23: How to contribute
+- 2025-07-23: first logos
+- 2025-07-22: More functionality - UI
+- 2025-07-22: Restored thoth-android-ai folder from previous commit
+- 2025-07-22: More functionality - UI
+- 2025-07-22: Update to documentation
+- 2025-07-17: Android specific implementation
+- 2025-07-16: Apache 2.0 license added
+- 2025-07-16: initial commit
+- 2025-07-16: initial commit
+- 2025-07-16: initial commit
