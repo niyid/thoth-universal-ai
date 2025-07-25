@@ -38,8 +38,7 @@ It allows **any app to plug into any large language model (LLM)**—local or rem
 
 ---
 
-## Monero Support
-
+### 💰 Donate with Monero (XMR)
 Support the project:
 
 **Monero Address:**  
@@ -60,6 +59,3 @@ Thoth interprets LLM outputs into **device-level actions** like:
   "value": "Hello there!"
 }
 
-### 💰 Donate with Monero (XMR)
-88Ae5wwozjnjmhXRN987HXUgNZ8J8MEKBZf8gsxsMHj39HPHjCoirxZFy1UWuNSE36i3AB8ppqMAnNHiskbaut41AqGskaw
-<img src="./ui/images/monero_wallet.png" alt="Monero Wallet" width="300" height="300">
